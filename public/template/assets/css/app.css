@@ -4,8 +4,8 @@
     Template Name: 'Relik-Admin Dashboard'
     Template URI:
     Description:
-    Author: 
-    Author URI: 
+    Author:
+    Author URI:
     Version: 1.0.0
     -------------------------------------------------
      1.0 base css
@@ -24,10 +24,10 @@
 --gray-600: #211D2E;
 --gray-10: #fff;
 --primary-600: #724FE5;
---primary-500: #2C04FE;
+--primary-500: #EF792E;
 --success-500: #32E7B1;
 --warning-600: #EEE6D0;
---warning-500: #FFC947;
+--warning-500: #EF792E;
 --warning-400: #F0E9E1;
 --warning-300: #FFFDF5;
 --warning-200: #F6F2E8;
@@ -58,11 +58,15 @@ html
 {
 box-sizing: border-box;
 height: 100%;
+width: 100vh;
+overflow-x: hidden;
 }
 
 body
 {
 height: 100%;
+width: 100%;
+overflow-x: hidden;
 color: rgba(19, 17, 26, 0.8);
 font-family: "Inter", sans-serif;
 -webkit-font-smoothing: antialiased;
@@ -984,31 +988,31 @@ blockquote {
 }
 
 .text-primary-500 {
-  color: #2C04FE !important;
+  color: #EF792E !important;
 }
 
 .bg-primary-500 {
-  background-color: #2C04FE !important;
+  background-color: #EF792E !important;
 }
 
 .border-primary-500 {
-  border-color: #2C04FE !important;
+  border-color: #EF792E !important;
 }
 
 .hoverbg-primary-500:hover {
-  background-color: #2C04FE !important;
+  background-color: #EF792E !important;
 }
 
 .hover\:bg-primary-500:hover {
-  background-color: #2C04FE !important;
+  background-color: #EF792E !important;
 }
 
 .hover\:text-primary-500:hover {
-  color: #2C04FE !important;
+  color: #EF792E !important;
 }
 
 .hover\:border-primary-500:hover {
-  border-color: #2C04FE !important;
+  border-color: #EF792E !important;
 }
 
 .text-success-500 {
@@ -4724,7 +4728,7 @@ a.fugu-app-btn:last-child {
   width: 18%;
   height: 37%;
   position: absolute;
-  background: #2C04FE;
+  background: #EF792E;
   opacity: 1;
   filter: blur(136.18px);
   border-radius: 100%;
@@ -11064,7 +11068,7 @@ button#fugu-input-submit:hover {
   color: rgba(19, 17, 26, 0.8);
 }
 .white-version .fugu--contact-info ul li a span {
-  background: #2C04FE;
+  background: #EF792E;
 }
 .white-version .fugu--contact-form {
   background-color: #F6F5F6;
@@ -11168,7 +11172,7 @@ button#fugu-input-submit:hover {
   border: 1px solid #D9D9D9;
 }
 .white-version .fugu--iconbox-wrap5 .fugu--iconbox-thumb {
-  background: #2C04FE;
+  background: #EF792E;
 }
 .white-version .fugu--iconbox-wrap5 .fugu--iconbox-data h4 {
   color: #13111A;
