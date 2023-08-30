@@ -101,8 +101,10 @@
     <!--End landex-header-section -->
 
 
-    {{$slot}}
-
+    {{isset($slot) ?? ""}}
+    <div class="m-5 p-5">
+        @yield('content')
+    </div>
     <!-- Footer  -->
 
     <footer class="fugu--footer-section">
