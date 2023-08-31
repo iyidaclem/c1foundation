@@ -47,7 +47,7 @@
             <nav class="navbar site-navbar">
                 <!-- Brand Logo-->
                 <div class="brand-logo rt-mr-20">
-                    <a href="index.html">
+                    <a href="/">
                         <img src="/images/c1-logo.webp" alt="" class="C1Logo">
                     </a>
                 </div>
@@ -79,10 +79,14 @@
 
                             <li class="header-btn header-btn-l1 fugu-responsive-btn">
 
-                                @if(!Auth::check())
+                                @if(Auth::check())
                                 <a class="fugu--btn fugu--menu-btn3" href="javascript:void" onclick="document.getElementById('submit_btn').click()">
 
                                     Logout
+                                </a>
+                                @else
+                                <a class="fugu--btn fugu--menu-btn3" href="/login">
+                                    Login
                                 </a>
                                 @endif
                                 <br>
