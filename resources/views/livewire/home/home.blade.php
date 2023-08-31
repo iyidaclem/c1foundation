@@ -95,7 +95,7 @@
                                 Defi and DAO to onboarded NGOs and the process to become a partner
                                 with a Google form and agreement.
                             </p>
-                            <button class="btn btn-warning">Apply</button>
+                            <a href="https://forms.gle/668vwd5YVnXQ5gd47" target="_blank" class="btn btn-warning">Apply</a>
                         </div>
                     </div>
                 </div>

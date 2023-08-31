@@ -70,7 +70,7 @@
 
                             </li>
                             <li class="nav-item nav-item-has-children">
-                                <a href="#" class="nav-link-item drop-trigger">Blog</a>
+                                <a href="/blogs" class="nav-link-item drop-trigger">Blog</a>
                             </li>
 
                             <li class="nav-item nav-item-has-children">
@@ -78,18 +78,35 @@
                             </li>
 
                             <li class="header-btn header-btn-l1 fugu-responsive-btn">
-                                <a class="fugu--btn fugu--menu-btn3" href="contact.html">
-                                    Get Started
+
+                                @if(!Auth::check())
+                                <a class="fugu--btn fugu--menu-btn3" href="javascript:void" onclick="document.getElementById('submit_btn').click()">
+
+                                    Logout
                                 </a>
+                                @endif
+                                <br>
+                                <form action="{{route('logout')}}" method="post">
+                                    @csrf
+                                    <input class="d-none" id="submit_btn" type="submit" value="submit" />
+                                </form>
                             </li>
                         </ul>
                     </nav>
                 </div>
+                @if(Auth::check())
                 <div class="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
-                    <a class="fugu--btn fugu--menu-btn3" href="contact.html">
-                        Get Started
+                    <a class="fugu--btn fugu--menu-btn3" href="/dashboard">
+                        Dashboard
                     </a>
                 </div>
+                @else
+                <div class="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
+                    <a class="fugu--btn fugu--menu-btn3" href="/login">
+                        Login
+                    </a>
+                </div>
+                @endif
                 <!-- mobile menu trigger -->
                 <div class="mobile-menu-trigger">
                     <span></span>
@@ -101,8 +118,7 @@
     <!--End landex-header-section -->
 
 
-    {{isset($slot) ?? ""}}
-    <div class="m-5 p-5">
+    <div class="mt-5">
         @yield('content')
     </div>
     <!-- Footer  -->
