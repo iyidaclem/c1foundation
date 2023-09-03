@@ -31,11 +31,13 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
     // Blogs
-    Route::get("/home/blogs/create", Create::class);
-    Route::post("/home/blogs/create", [App\Http\Controllers\BlogController::class, 'createBlog'])->name("home.blogs.create");
-    Route::get("/home/blogs/edit/{id}", Edit::class);
-    Route::POST("/home/blogs/update", [App\Http\Controllers\BlogController::class, 'updateBlog'])->name("home.blogs.update");
-    Route::POST("/home/blogs/delete", [App\Http\Controllers\BlogController::class, 'deleteBlog'])->name("home.blogs.delete");
+    Route::middleware('admin')->group(function () {
+        Route::get("/home/blogs/create", Create::class);
+        Route::post("/home/blogs/create", [App\Http\Controllers\BlogController::class, 'createBlog'])->name("home.blogs.create");
+        Route::get("/home/blogs/edit/{id}", Edit::class);
+        Route::POST("/home/blogs/update", [App\Http\Controllers\BlogController::class, 'updateBlog'])->name("home.blogs.update");
+        Route::POST("/home/blogs/delete", [App\Http\Controllers\BlogController::class, 'deleteBlog'])->name("home.blogs.delete");
+    });
 });
 
 //Blogs

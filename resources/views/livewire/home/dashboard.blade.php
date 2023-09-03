@@ -1,7 +1,9 @@
 <div>
 
     <div class="d-flex flex-row-reverse">
+        @if(auth()->user()->level == "admin")
         <a class="btn btn primary mb-3" href="/home/blogs/create">+ Create Post</a>
+        @endif
     </div>
 
 
@@ -24,11 +26,11 @@
             <div class="remodal-content">
                 <h2 id="modal1Title">Delete Post</h2>
                 <p id="modal1Desc">
-                   Are you sure you want to delete?
+                    Are you sure you want to delete?
                 </p>
             </div>
             <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
-            <a data-remodal-action="confirm" class="remodal-confirm"onclick="document.getElementById('delform{{$post->id}}').click()">OK</a>
+            <a data-remodal-action="confirm" class="remodal-confirm" onclick="document.getElementById('delform{{$post->id}}').click()">OK</a>
             <form action="{{route('home.blogs.delete')}}" method="post">
                 @csrf
                 <input type="hidden" name="id" value="{{$post->id}}">

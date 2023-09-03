@@ -14,8 +14,8 @@
                             spanning from digital art and collectibles to virtual real estate.
                         </p>
                         <div class="fugu--btn-wrap fugu--hero-btn wow fadeInUpX" data-wow-delay="0.25s">
-                            <a class="fugu--btn bg-blue active" href="#">Get Started</a>
-                            <a class="fugu--btn bg-blue" href="#">Discover More</a>
+                            <a class="fugu--btn bg-blue active" href="/blogs">Get Started</a>
+                            <a class="fugu--btn bg-blue" href="/blogs">Discover More</a>
                         </div>
                     </div>
                 </div>
@@ -110,7 +110,7 @@
                                 We support and train builders on C1foundations. You can apply to become one of the builders. You have the opportunity to join our
                                 community to collaborate with the existing builders.
                             </p>
-                            <button class="btn btn-warning">Apply</button>
+                            <a href="https://forms.gle/668vwd5YVnXQ5gd47" target="_blank" class="btn btn-warning">Apply</a>
                         </div>
                     </div>
                 </div>
@@ -124,7 +124,23 @@
                             <p>
                                 Click to view what it takes and benefits of becoming a builder from getting paid positions as you're knowledgeable about the ecosystem to the bounties open to everyone.
                             </p>
-                            <button class="btn btn-warning">Apply</button>
+                            <a href="https://forms.gle/668vwd5YVnXQ5gd47" target="_blank" class="btn btn-warning">Apply</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 ">
+                    <div class="fugu--iconbox-wrap fugu--iconbox-wrap3 wow fadeInUpX" data-wow-delay="0s">
+                        <!-- <div class="fugu--iconbox-thumb">
+                            <img src="/images/hackathon.png" style="border-radius: 100%" alt="">
+                        </div> -->
+                        <div class="fugu--iconbox-data">
+                            <h1 class="text-light">Games</h1>
+                            <img src="/images/games.png" width="100%" alt="">
+                            <p>
+                                <!-- Click to view what it takes and benefits of becoming a builder from getting paid positions as you're knowledgeable about the ecosystem to the bounties open to everyone. -->
+                            </p>
                         </div>
                     </div>
                 </div>

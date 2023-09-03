@@ -75,9 +75,11 @@
                     </li>
                     <li>
                         <a class="waves-effect parent-item js__control" href="#"><i class="menu-icon fa fa-book"></i><span>My Blogs</span><span class="menu-arrow fa fa-angle-down"></span></a>
+                        @if(auth()->user()->level == "admin")
                         <ul class="sub-menu js__content">
                             <li><a href="home/blogs/create">Create</a></li>
                         </ul>
+                        @endif
                         <!-- /.sub-menu js__content -->
                     </li>
                 </ul>
