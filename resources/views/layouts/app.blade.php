@@ -186,7 +186,7 @@
             <div class="fugu--footer-bottom fugu--footer-bottom3">
                 <div class="row">
                     <div class="col-lg-6">
-                        <p>&copy; Copyright 2022, All Rights Reserved by {{env('APP_NAME')}}</p>
+                        <p>&copy; Copyright {{date("Y")}}, All Rights Reserved by {{env('APP_NAME')}}</p>
                     </div>
                     <div class="col-lg-6">
                         <div class="fugu--footer-menu">

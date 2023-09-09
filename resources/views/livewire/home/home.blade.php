@@ -110,7 +110,7 @@
                                 We support and train builders on C1foundations. You can apply to become one of the builders. You have the opportunity to join our
                                 community to collaborate with the existing builders.
                             </p>
-                            <a href="https://forms.gle/668vwd5YVnXQ5gd47" target="_blank" class="btn btn-warning">Apply</a>
+                            <a href="#" target="_blank" class="btn btn-warning">Apply</a>
                         </div>
                     </div>
                 </div>
@@ -122,15 +122,16 @@
                         <div class="fugu--iconbox-data">
                             <h4>HACKATHONs</h4>
                             <p>
-                                Click to view what it takes and benefits of becoming a builder from getting paid positions as you're knowledgeable about the ecosystem to the bounties open to everyone.
+                                Fill this form to indicate interest in the upcoming C1 Foundation’s gaming idea-thon. 
+                                This opportunity is open for Game Designer Game Developer, UI/UX Designer, Researcher, Tester, Enthusiast.
                             </p>
-                            <a href="https://forms.gle/668vwd5YVnXQ5gd47" target="_blank" class="btn btn-warning">Apply</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc3tICnxtjUEigm_KFPz_fM-1PaltL_uAwCN-q6nqtgDkp8Eg/viewform" target="_blank" class="btn btn-warning">Apply</a>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="col-12 ">
+                <div class="col-12" id="idea-thon">
                     <div class="fugu--iconbox-wrap fugu--iconbox-wrap3 wow fadeInUpX" data-wow-delay="0s">
                         <!-- <div class="fugu--iconbox-thumb">
                             <img src="/images/hackathon.png" style="border-radius: 100%" alt="">
@@ -138,8 +139,8 @@
                         <div class="fugu--iconbox-data">
                             <h1 class="text-light">Games</h1>
                             <img src="/images/games.png" width="100%" alt="">
-                            <p>
-                                <!-- Click to view what it takes and benefits of becoming a builder from getting paid positions as you're knowledgeable about the ecosystem to the bounties open to everyone. -->
+                            <p><br>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc3tICnxtjUEigm_KFPz_fM-1PaltL_uAwCN-q6nqtgDkp8Eg/viewform" target="_blank" class="btn btn-warning">Apply</a>
                             </p>
                         </div>
                     </div>
