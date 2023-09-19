@@ -7,11 +7,10 @@
                     <div class="fugu--hero-content fugu--hero-content3">
                         <h1 class="wow fadeInUpX" data-wow-delay="0s">{{env("APP_NAME")}}</h1>
                         <p class="wow fadeInUpX" data-wow-delay="0.15s">
-                            Welcome to the C1foundation, an innovative platform operating on
-                            the NEAR blockchain. Our goal is to support talents, developers, and creators,
-                            enabling them to realize their maximum potential. Within our ecosystem, users can explore,
-                            acquire, and trade exceptional digital assets. These assets signify unique digital creations,
-                            spanning from digital art and collectibles to virtual real estate.
+                            Chapter One Global Charity Foundation aka C1 Foundation RC: 185318
+
+                            We are artists helping artists primarily bridging the gap between traditional NGOs
+                            system to DAO system leveraging the web3 technology for more social good.
                         </p>
                         <div class="fugu--btn-wrap fugu--hero-btn wow fadeInUpX" data-wow-delay="0.25s">
                             <a class="fugu--btn bg-blue active" href="/blogs">Get Started</a>
@@ -122,7 +121,7 @@
                         <div class="fugu--iconbox-data">
                             <h4>HACKATHONs</h4>
                             <p>
-                                Fill this form to indicate interest in the upcoming C1 Foundation’s gaming idea-thon. 
+                                Fill this form to indicate interest in the upcoming C1 Foundation’s gaming idea-thon.
                                 This opportunity is open for Game Designer Game Developer, UI/UX Designer, Researcher, Tester, Enthusiast.
                             </p>
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSc3tICnxtjUEigm_KFPz_fM-1PaltL_uAwCN-q6nqtgDkp8Eg/viewform" target="_blank" class="btn btn-warning">Apply</a>
@@ -140,7 +139,7 @@
                             <h1 class="text-light">Games</h1>
                             <img src="/images/games.png" width="100%" alt="">
                             <p><br>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc3tICnxtjUEigm_KFPz_fM-1PaltL_uAwCN-q6nqtgDkp8Eg/viewform" target="_blank" class="btn btn-warning">Apply</a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc3tICnxtjUEigm_KFPz_fM-1PaltL_uAwCN-q6nqtgDkp8Eg/viewform" target="_blank" class="btn btn-warning">Apply</a>
                             </p>
                         </div>
                     </div>
