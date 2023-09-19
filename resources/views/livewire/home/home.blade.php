@@ -60,11 +60,15 @@
                 <div class="col-xl-6 d-flex align-items-center">
                     <div class="fugu--default-content">
                         <h2>C1foundation NFT Market place</h2>
-                        <p>Explore our diverse collection of NFTs created by artists and creators from around the world. From stunning digital artwork to virtual experiences, you'll find a wide range of digital assets that you can truly own. Our marketplace ensures authenticity and provenance through blockchain technology, providing a secure and transparent way to trade NFTs.</p>
-                        <p>Visit the C1 NFT Marketplace today to become a part of the growing digital ownership revolution on the NEAR blockchain. Discover, collect, and trade NFTs like never before.</p>
+                        <p> 
+                        Visit C1 foundation's NFTs marketplace to become a part of the growing digital 
+                        ownership revolution of social impact.
+                        Donate by collecting an NFTs created by our community.
+
+                        </p>
 
                         <div class="fugu--btn-wrap">
-                            <a class="fugu--btn bg-blue" href="#">Discover More</a>
+                            <a class="fugu--btn bg-blue" href="https://nft.c1foundations.com">Visit Market Place</a>
                         </div>
                     </div>
                 </div>
