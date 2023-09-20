@@ -60,10 +60,10 @@
                 <div class="col-xl-6 d-flex align-items-center">
                     <div class="fugu--default-content">
                         <h2>C1foundation NFT Market place</h2>
-                        <p> 
-                        Visit C1 foundation's NFTs marketplace to become a part of the growing digital 
-                        ownership revolution of social impact.
-                        Donate by collecting an NFTs created by our community.
+                        <p>
+                            Visit C1 foundation's NFTs marketplace to become a part of the growing digital
+                            ownership revolution of social impact.
+                            Donate by collecting an NFTs created by our community.
 
                         </p>
 
@@ -94,11 +94,10 @@
                         </div>
                         <div class="fugu--iconbox-data">
                             <h4>NGOs</h4>
-                            <p>A click away to the details you need to know about C1 Guild Integrating NFTs,
-                                Defi and DAO to onboarded NGOs and the process to become a partner
-                                with a Google form and agreement.
+                            <p>A click the apply button to see the details you need to know about C1 Guild Integrating NFTs,
+                                Defi and DAO to onboarded NGOs and the process to become a partner.
                             </p>
-                            <a href="https://forms.gle/668vwd5YVnXQ5gd47" target="_blank" class="btn btn-warning">Apply</a>
+                            <a href="https://forms.gle/1xAHicVJJDn1kmqR8" target="_blank" class="btn btn-warning">Apply</a>
                         </div>
                     </div>
                 </div>
@@ -113,7 +112,23 @@
                                 We support and train builders on C1foundations. You can apply to become one of the builders. You have the opportunity to join our
                                 community to collaborate with the existing builders.
                             </p>
-                            <a href="#" target="_blank" class="btn btn-warning">Apply</a>
+                            <a href="https://forms.gle/zQmmMb9xFeedqi9fA" target="_blank" class="btn btn-warning">Apply</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="fugu--iconbox-wrap fugu--iconbox-wrap3 wow fadeInUpX" data-wow-delay="0s">
+                        <div class="fugu--iconbox-thumb">
+                            <img src="/images/c1tv.png" style="border-radius: 100%" alt="">
+                        </div>
+                        <div class="fugu--iconbox-data">
+                            <h4>C1Tv</h4>
+                            <p>
+                                C1Tv creative accelerator is a creative empowerment program for onboarding and helping creatives produce and mint NFTs curated by DedeukwuShryne.
+
+                                Fill the form to participate:
+                            </p>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScOipmb9Z_yhUPkzclXFDYR2AJKdjiWq8leG9Ni2MlSsXnkvw/viewform" target="_blank" class="btn btn-warning">Apply</a>
                         </div>
                     </div>
                 </div>
@@ -148,9 +163,25 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- youtube channel start here -->
+                <div class="container mt-5">
+                    <h3 class="text-light">Our YouTube Channel</h3>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <!-- Replace 'YOUR_EMBED_CODE_HERE' with your actual YouTube embed code -->
+                        <iframe width="100%" height="500px" src="https://www.youtube.com/embed/-D1mz0eUQ4w?si=BQJG6J3Vw7kAlz_L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <p><br>
+                                <a href="https://youtube.com/@chapteroneTv?si=hI-R7eZJ8c92VU7F" target="_blank" class="btn btn-warning">View our Youtube Channel</a>
+                            </p>
+                </div>
+
+                <!-- youtube channel ends here -->
             </div>
         </div>
     </div>
     <!-- End Fugu feature section -->
+
+
 
 </div>
