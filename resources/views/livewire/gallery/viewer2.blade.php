@@ -16,7 +16,7 @@
                     width: 100%;
                     background: url('{{url($image->url)}}');
                     background-size:cover;
-                    height: 300px;
+                    height: fit-content;
                     ">
                         </div>
                     </div>
