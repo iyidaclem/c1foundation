@@ -82,6 +82,9 @@
                         @endif
                         <!-- /.sub-menu js__content -->
                     </li>
+                    <li>
+                    <a class="waves-effect parent-item" href="/home/gallery"><i class="menu-icon fa fa-image"></i><span>Gallery</span></a>
+                    </li>
                 </ul>
                 <!-- /.menu js__accordion -->
             </div>

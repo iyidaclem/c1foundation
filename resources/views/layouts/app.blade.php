@@ -139,33 +139,35 @@
                             <p>Welcome to the C1foundation, an innovative platform operating on the NEAR blockchain!</p>
                             <div class="fugu--social-icon fugu--social-icon3">
                                 <ul>
-                                    <li><a href=""><img src="/template/assets/images/social2/twitter.svg" alt=""></a></li>
-                                    <li><a href=""><img src="/template/assets/images/social2/facebook.svg" alt=""></a></li>
-                                    <li><a href=""><img src="/template/assets/images/social2/instagram.svg" alt=""></a></li>
-                                    <li><a href=""><img src="/template/assets/images/social2/github.svg" alt=""></a></li>
+                                    <li><a href="https://x.com/dum_unu?s=21&t=9rYhk-4FkuSZZG9cOagnFw"><img src="/template/assets/images/social2/twitter.svg" alt=""></a></li>
+                                    <li><a href="https://www.facebook.com/chapter1guild?mibextid=LQQJ4d"><img src="/template/assets/images/social2/facebook.svg" alt=""></a></li>
+                                    <li><a href="https://instagram.com/dum_unu?igshid=MzRlODBiNWFlZA=="><img src="/template/assets/images/social2/instagram.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="/template/assets/images/social2/github.svg" alt=""></a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
+
                     <div class="col-lg-2 offset-lg-1 col-md-4 col-sm-4">
                         <div class="fugu--footer-menu">
                             <span>Menu</span>
                             <ul>
                                 <li><a href="/">Home</a></li>
-                                <li><a href="">Blog</a></li>
-                                <li><a href="">My Account</a></li>
+                                <li><a href="/blog">Blog</a></li>
+                                <li><a href="/home">My Account</a></li>
                             </ul>
                         </div>
                     </div>
+
                     <div class="col-lg-2 offset-lg-1 col-md-4 col-sm-4">
                         <div class="fugu--footer-menu">
                             <span>Links</span>
                             <ul>
                                 <li><a href="http://nft.c1foundations.com/">NFT Marketplace</a></li>
-                                <li><a href="">Art</a></li>
-                                <li><a href="">Photography</a></li>
-                                <li><a href="">Games</a></li>
-                                <li><a href="">Music</a></li>
+                                <li><a href="/">Art</a></li>
+                                <li><a href="/gallery/viewer">Photography</a></li>
+                                <li><a href="/">Games</a></li>
+                                <li><a href="/">Music</a></li>
                             </ul>
                         </div>
                     </div>
