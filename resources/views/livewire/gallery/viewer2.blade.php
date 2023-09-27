@@ -11,14 +11,7 @@
                     </div>
                     @foreach($gallery->image()->get() as $image)
                     <div class="col-md-6">
-
-                        <div class="card" style="
-                    width: 100%;
-                    background: url('{{url($image->url)}}');
-                    background-size:cover;
-                    height: fit-content;
-                    ">
-                        </div>
+                       <img src="{{url($image->url)}}" class="w-100" alt="" srcset="">
                     </div>
                     @endforeach
                 </div>
